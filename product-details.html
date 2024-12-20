@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductDetails- SHOP.CO</title>
+    <link rel="stylesheet" href="/css/product-details.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        @font-face {
+            font-family: font-1;
+            src: url(/fonts/Fontspring-DEMO-integralcf-bold.ttf);
+        }
+
+        @font-face {
+            font-family: font-2;
+            src: url(/fonts/Satoshi-Variable.ttf);
+        }
+
+        .font-1 {
+            font-family: font-1;
+        }
+
+        .font-2 {
+            font-family: font-2;
+        }
+
+        .light-black {
+            color: rgba(48, 48, 48, 0.73);
+        }
+
+        .black {
+            color: rgb(0, 0, 0);
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main container">
+  <!-- breadcrumb code starts -->
+  <nav class="mb-4 mt-4" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item fs-4"><a href="#" class="text-decoration-none font-2 light-black fs-4">Home</a></li>
+      <li class="breadcrumb-item fs-4"><a href="#" class="text-decoration-none font-2 light-black fs-4">Shop</a></li>
+      <li class="breadcrumb-item fs-4"><a href="#" class="text-decoration-none font-2 light-black fs-4">Men</a></li>
+      <li class="breadcrumb-item active fs-4 font-2" aria-current="page">T-shirts</li>
+    </ol>
+  </nav>
+  <!-- breadcrumb code Ends -->
+
+  <!-- section-1 code starts -->
+  <div class="row mb-4">
+    <!-- Images Column -->
+    <div class="col-md-3  col-12 mb-3">
+      <img src="/images/image-1.png" alt="img" class="img-fluid mx-auto d-block mb-3 img-1">
+      <img src="/images/image-2.png" alt="img" class="img-fluid mx-auto d-block mb-3 img-2">
+      <img src="/images/image-3.png" alt="img" class="img-fluid mx-auto d-block mb- img-3">
+    </div>
+
+    <!-- Main Image Column -->
+    <div class="col-md-5 col-12 mb-3">
+      <img src="/images/image-4.png" alt="img" class="img-fluid float-start d-block">
+    </div>
+
+    <!-- Product Details Column -->
+    <div class="col-md-4 col-12">
+      <h1 class="font-1 black mb-3">One Life Graphic T-shirt</h1>
+      <h4 class="font-2 black fs-1">$260</h4>
+      <p class="font-2">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
+      <hr>
+      <p class="font-2 fs-3 black">Select Colors</p>
+      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio1" id="btnradio1" autocomplete="off" checked>
+        <label class="btn btn-outline-dark font-2" for="btnradio1">Chocolate</label>
+    
+        <input type="radio" class="btn-check" name="btnradio1" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-dark font-2" for="btnradio2">Olive</label>
+    
+        <input type="radio" class="btn-check" name="btnradio1" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-dark font-2" for="btnradio3">Plum</label>
+      </div>
+
+      <hr>
+
+      <p class="font-2 fs-3 black">Choose Size</p>
+      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" checked>
+        <label class="btn btn-outline-dark font-2" for="btnradio4">Small</label>
+    
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+        <label class="btn btn-outline-dark font-2" for="btnradio5">Medium</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off">
+        <label class="btn btn-outline-dark font-2" for="btnradio6">Large</label>
+    
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off">
+        <label class="btn btn-outline-dark font-2" for="btnradio7">X-Large</label>
+      </div>
+
+      <div class="mt-5">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="input-group">
+              <input type="number" class="form-control font-2 rounded-pill" value="1" min="1" max="6">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-grid mt-3">
+        <button class="btn btn-dark font-2 rounded-pill" type="button">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- section-1 code Ends -->
+
+  <!-- Section-2 code starts -->
+  <hr>
+  <div class="section-2">
+    <h1 class="font-1 mt-5">Description</h1>
+    <p class="font-2">This versatile shirt comes in three rich colors: chocolate, olive, and plum. The chocolate shade offers a deep, warm brown, ideal for both casual and semi-formal wear. Olive brings a muted, earthy green tone, perfect for a relaxed yet stylish look. Plum adds a rich, dark purple, adding elegance and a touch of boldness to your wardrobe.</p>
+    <p class="font-2">Crafted from a high-quality, breathable fabric, the shirt feels soft and smooth against the skin, ensuring comfort all day. It features a tailored fit that offers a flattering silhouette without being too tight, making it suitable for various occasions. The classic button-up design, along with a structured collar, enhances its polished appearance.</p>
+    <p class="font-2">Available in sizes Small to XXL, the shirt provides a comfortable fit for different body types. Made from a durable cotton blend or premium linen, it is lightweight and breathable. Easy to care for, it is machine washable and wrinkle-resistant, keeping you looking sharp with minimal effort. This shirt is a timeless and versatile piece for any wardrobe.</p>
+  </div>
+  <!-- Section-2 code ends -->
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+.section-1{
+    height: 74vh;
+}
+
+
+
+.img-1{
+
+    margin-bottom: 15px;
+    filter: grayscale(.4);
+
+}
+.img-1:hover{
+    filter: grayscale(.4);
+    transform: scale(1.1) ;
+    border: 2px solid rgba(0, 0, 0, 0.568);
+    border-radius: 20px;
+}
+
+
+
+.img-2{
+    margin-bottom: 15px;
+    filter: grayscale(.4);
+
+}
+
+.img-2:hover{
+    filter: grayscale(.4);
+    transform: scale(1.1) ;
+    border: 2px solid rgba(0, 0, 0, 0.568);
+    border-radius: 20px;
+}
+
+
+.img-3{
+    filter: grayscale(.4);
+
+}
+
+.img-3:hover{
+    filter: grayscale(.4);
+    transform: scale(1.1) ;
+    border: 2px solid rgba(0, 0, 0, 0.568);
+    border-radius: 20px;
+}
+
+
+
+.img-4{
+    width: 100%;
+}

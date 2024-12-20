@@ -1,0 +1,22 @@
+@font-face {
+    font-family: font-1;
+    src: url(/fonts/Fontspring-DEMO-integralcf-bold.ttf);
+}
+
+@font-face {
+    font-family: font-2;
+    src: url(/fonts/Satoshi-Variable.ttf);
+}
+
+
+.font-1 {
+    font-family: font-1;
+}
+
+.font-2 {
+    font-family: font-2;
+}
+
+.li-g1{
+    list-style: none;
+}

@@ -1,0 +1,179 @@
+@font-face {
+    font-family: font-1;
+    src: url(/fonts/Fontspring-DEMO-integralcf-bold.ttf);
+}
+
+@font-face {
+    font-family: font-2;
+    src: url(/fonts/Satoshi-Variable.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #F2F0F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/login-bg-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border: 3px solid black;
+    padding: 200px 190px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px black;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.form h1{
+    font-family: font-1;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.para-1{
+    font-family: font-2;
+    font-size: 22px;
+    text-align: center;
+}
+
+span{
+    font-family:font-1 ;
+}
+
+.username{
+    padding: 16px 8px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: font-2;
+    box-shadow: 3px 3px 5px black;
+    outline: none;
+    
+}
+
+.password{
+    padding: 16px 8px;
+    min-height: 16px;
+    min-width: 16px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: font-2;
+    box-shadow: 3px 3px 5px black;
+    outline: none;
+}
+
+.checkbox-div{
+    display: flex;
+}
+
+.checkbox-div p{
+    font-family: font-2;
+    margin-left: 5px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background: transparent;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    padding: 14px 7px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: rgb(34, 34, 34);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    font-family: font-1;
+    font-size: 18px;
+}
+
+.forget-pass{
+    font-family: font-2;
+    text-decoration: none;
+    
+}
+
+.forget-pass:hover{
+    text-decoration: underline;
+}
+
+.logToSignup{
+    font-family: font-2;
+}
+
+.logToSignup a{
+font-family: font-2;
+}
+
+
+/* MEDIA CODE */
+
+
+@media (max-width:1024px) {
+    .form{
+        padding: 200px 100px;
+    }
+}
+
+@media (max-width:768px){
+    .form{
+        border: none;
+        box-shadow: none;
+        
+    }
+
+    .main{
+        background-image: none;
+    }
+
+}
+
+@media (max-width:628px){
+    .form{
+        padding: 0;
+        width: 93%;
+    }
+    .para-1{
+        font-size: 18px;
+    }
+    .form h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:375px){
+    .username, .password{
+        padding: 12px 6px;
+    }
+}
