@@ -1,4 +1,4 @@
-<!-- @format -->
+@format
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,65 +14,76 @@
     <link rel="stylesheet" href="css/index.css " />
   </head>
   <body>
-    <p class="bg-dark text-light text-center fw-light p-0 m-0">
-      Signup and get 20% off to your first order.Sign Up Now
-    </p>
-    <nav class="navbar bg-body-tertiary custom-padding">
-      <div
-        class="container-fluid d-flex justify-content-between align-items-center">
-        <!-- Navbar Brand -->
-        <a class="navbar-brand h1 fw-bold">SHOP.CO</a>
+    <!-- Promotional Paragraph -->
+<p class="bg-dark text-light text-center fw-light py-2 px-3 m-0">
+  Signup and get 20% off on your first order. <a href="signup.html" class="text-warning fw-bold">Sign Up Now</a>
+</p>
 
-        <!-- Navbar Links -->
-        <ul class="navbar-nav d-flex flex-row gap-4">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">HomePage</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">New Arrival</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="About.html">About Page</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Shop Now
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#">Vitamins and Supplements</a>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary custom-padding">
+  <div class="container-fluid">
+      <!-- Navbar Brand -->
+      <a class="navbar-brand h1 fw-bold" href="#">SHOP.CO</a>
+
+      <!-- Toggle Button for Mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Navbar -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Navbar Links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center gap-lg-4">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">HomePage</a>
               </li>
-              <li><a class="dropdown-item" href="#">Skin Care Products </a></li>
-              <li><a class="dropdown-item" href="#">Bags</a></li>
-            </ul>
-          </li>
-        </ul>
+              <li class="nav-item">
+                  <a class="nav-link" href="product-details.html">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="About.html">About Page</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Shop Now
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li>
+                          <a class="dropdown-item" href="#">Vitamins and Supplements</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Skin Care Products</a></li>
+                      <li><a class="dropdown-item" href="#">Bags</a></li>
+                  </ul>
+              </li>
+          </ul>
 
-        <!-- Search Form -->
-        <form class="d-flex" role="search">
-          <input
-            class="form-control me-2 rounded-pill"
-            style="width: 500px; height: 45px"
-            type="search"
-            placeholder="Search"
-            aria-label="Search" />
-        </form>
+          <!-- Search Form -->
+          <form class="d-flex flex-grow-1 me-lg-3" role="search">
+              <input
+                  class="form-control rounded-pill"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search" />
+          </form>
 
-        <ul class="navbar-nav d-flex flex-row gap-4">
-          <li class="nav-item">
-            <a class="nav-link" href="#">SignUp</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
-          </li>
-        </ul>
+          <!-- Auth Links -->
+          <ul class="navbar-nav d-flex flex-row gap-2">
+              <li class="nav-item">
+                  <a class="nav-link" href="signup.html">SignUp</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+              </li>
+          </ul>
       </div>
-    </nav>
+  </div>
+</nav>
+
 
     <main>
       <div
@@ -104,44 +115,7 @@
       </div>
     </main>
 
-    <!-- <main>
-      <div class="Container img-fluid">
-        <div class="Container-head">
-          <div class="pt-5 pl-5">
-            <h1>FIND CLOTHES</h1>
-            <h1>THAT MACHES</h1>
-            <h1>YOUR STYLE</h1>
-            <p>
-              Browse through our diverse range of meticulously crafted garments,
-            </p>
-            <p>
-              designed to bring out your individuality and cater to your sense
-              of style.
-            </p>
-            <button
-              class="rounded-pill bg-dark text-light fw-light button-width">
-              Shop Now
-            </button>
-          </div>
-        </div>
-      </div>
-    </main> -->
-
-    <!-- <div class="Container-Mobile container-fluid">
-        <div class="Container-head">
-          <div>
-            <h1 class="custom-width">FIND CLOTHES THAT MATCH YOUR STYLE</h1>
-            <p>
-              Browse through our diverse range of meticulously crafted garments,
-              designed to bring out your individuality and cater to your sense of style.
-            </p>
-            <button class="rounded-pill bg-dark text-light fw-light button-width">
-              Shop Now
-            </button>
-          </div>
-        </div>
-        </div> -->
-
+   
     <div class="logo-div">
       <img src="/images/logo1.png" alt="" />
       <img src="/images/logo2.png" alt="" />
@@ -153,21 +127,87 @@
     <section class="New-Arrival">
       <h1>New Arrival</h1>
 
-      <!-- <div id="card">
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div> -->
-      <!-- </div> -->
-    </section>
+   
+    </section id="products">
 
     <div
       class="my-5 d-flex flex-wrap justify-content-center gap-3"
       id="productSection"></div>
+
+      <!-- footer start -->
+
+        <footer>
+          <div class="main-footer-div">
+<div>
+    <h1>STAY UPTO DATE ABOUT </h1>
+  <h1>  OUR LATEST OFFERS</h1>
+</div>
+
+<div class="footer-input-button">
+    <input type="email" placeholder="Enter Your Email Adresss">
+    <button><h6>Subscribe News Letters </h6></button>
+</div>
+          </div>
+          
+          
+        </div>
+
+        <div class="footer-link">
+
+            <div>
+                <h1>SHOP.CO</h1>
+                <P style="width: 140px;">We Have Clothes that suitstyle and which you are proud to wear from women to men</P>
+                <img src="/images/Social.png" alt="">
+            </div>
+            <div>
+                <p>COMPANY</p>
+                <p>About</p>
+                <p>Features</p>
+                <p>Work</p>
+                <p>Career</p>
+            </div>
+            <div>
+                <p>Help</p>
+                <p>Custumer Support</p>
+                <p>Dilvery Details</p>
+                <p>Terms and Condition</p>
+                <p>Privacy And Policy</p>
+            </div>
+            <div>
+                <p>Fag</p>
+                <P>Account</P>
+                <p>Mange Deliveries</p>
+                <p>Order</p>
+                <p>Payment</p>
+            </div>
+            <div>
+                <p>RESOURSE</p>
+                <P>Free eBooks</P>
+                <p>Development Tutorial</p>
+                <p>How to Blog</p>
+                <p>Youtube Playlist</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-end">
+
+          <div class="end-footer">
+ 
+            <p>Shop.co @2000 2024. All Rights Reserved</p>
+            
+            <img src="/images/Frame 53.png" alt="logo" height="100px" >
+          </div>
+           
+        </div>
+    </footer>
+    
+<!-- footer-end -->
+</body>
+</html>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>

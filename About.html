@@ -14,147 +14,159 @@
 </head>
 <body>
     
-    <p class="bg-dark text-light text-center fw-light p-0 m-0">
-        Signup and get 20% off to your first order.Sign Up Now
-      </p>
-      <nav class="navbar bg-body-tertiary custom-padding">
-        <div
-          class="container-fluid d-flex justify-content-between align-items-center">
-          <!-- Navbar Brand -->
-          <a class="navbar-brand h1 fw-bold">SHOP.CO</a>
-  
+<!-- Promotional Paragraph -->
+<p class="bg-dark text-light text-center fw-light py-2 px-3 m-0">
+  Signup and get 20% off on your first order. <a href="signup.html" class="text-warning fw-bold">Sign Up Now</a>
+</p>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary custom-padding">
+  <div class="container-fluid">
+      <!-- Navbar Brand -->
+      <a class="navbar-brand h1 fw-bold" href="#">SHOP.CO</a>
+
+      <!-- Toggle Button for Mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Navbar -->
+      <div class="collapse navbar-collapse" id="navbarNav">
           <!-- Navbar Links -->
-          <ul class="navbar-nav d-flex flex-row gap-4">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HomePage</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">New Arrival</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="About.html">About Page</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Shop Now
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">Vitamins and Supplements</a>
-                </li>
-                <li><a class="dropdown-item" href="#">Skin Care Products </a></li>
-                <li><a class="dropdown-item" href="#">Bags</a></li>
-              </ul>
-            </li>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center gap-lg-4">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">HomePage</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="product-details.html">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="About.html">About Page</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Shop Now
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li>
+                          <a class="dropdown-item" href="#">Vitamins and Supplements</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Skin Care Products</a></li>
+                      <li><a class="dropdown-item" href="#">Bags</a></li>
+                  </ul>
+              </li>
           </ul>
-  
+
           <!-- Search Form -->
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2 rounded-pill"
-              style="width: 500px; height: 45px"
-              type="search"
-              placeholder="Search"
-              aria-label="Search" />
+          <form class="d-flex flex-grow-1 me-lg-3" role="search">
+              <input
+                  class="form-control rounded-pill"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search" />
           </form>
-  
-          <ul class="navbar-nav d-flex flex-row gap-4">
-            <li class="nav-item">
-              <a class="nav-link" href="#">SignUp</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
+
+          <!-- Auth Links -->
+          <ul class="navbar-nav d-flex flex-row gap-2">
+              <li class="nav-item">
+                  <a class="nav-link" href="signup.html">SignUp</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+              </li>
           </ul>
-        </div>
-      </nav>
+      </div>
+  </div>
+</nav>
 
-    <header class="about-header">
-        <div class="container">
-            <h1>About Us</h1>
-            <p>Delivering Quality, Affordability, and Trust.</p>
-        </div>
-    </header>
 
-     About 
-        <div id="About-page">
-      <section class="about-content">
-        <div class="container">
-          <div class="row mb-5">
+    
+
+
+ <div class="about-header text-center py-5">
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Delivering Quality, Affordability, and Trust.</p>
+    </div>
+</div>
+
+<div id="About-page" class="container py-5">
+    <section class="about-content">
+        <div class="row mb-5 align-items-center">
             <div class="col-md-6">
-              <img
-                src="https://via.placeholder.com/500x300"
-                alt="About Us"
-                class="img-fluid rounded" />
+                <img
+                    src="/images/about-page.jpeg"
+                    alt="About Us"
+                    class="img-fluid rounded"
+                />
             </div>
             <div class="col-md-6">
-              <h2>Welcome to Our Store</h2>
-              <p>
-                We are dedicated to bringing you the best products, handpicked
-                with care and quality-tested to ensure your satisfaction. At
-                [Your Store Name], customer satisfaction is at the heart of
-                everything we do.
-              </p>
-              <p>
-                From the latest trends to timeless essentials, our collections
-                are designed to cater to all your needs at affordable prices.
-              </p>
+                <h2>Welcome to Our Store</h2>
+                <p>
+                    We are dedicated to bringing you the best products, handpicked
+                    with care and quality-tested to ensure your satisfaction. At
+                    [Your Store Name], customer satisfaction is at the heart of
+                    everything we do.
+                </p>
+                <p>
+                    From the latest trends to timeless essentials, our collections
+                    are designed to cater to all your needs at affordable prices.
+                </p>
             </div>
-          </div>
+        </div>
 
-          <div class="row">
+        <div class="row text-center">
             <!-- Mission Card -->
             <div class="col-md-4 mb-4">
-              <div class="card about-card">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Our Mission</h5>
-                  <p class="card-text">
-                    To provide top-notch products and exceptional service to our
-                    customers worldwide.
-                  </p>
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Mission</h5>
+                        <p class="card-text">
+                            To provide top-notch products and exceptional service to our
+                            customers worldwide.
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
 
             <!-- Vision Card -->
             <div class="col-md-4 mb-4">
-              <div class="card about-card">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Our Vision</h5>
-                  <p class="card-text">
-                    To become a globally recognized brand synonymous with
-                    quality and trust.
-                  </p>
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Vision</h5>
+                        <p class="card-text">
+                            To become a globally recognized brand synonymous with
+                            quality and trust.
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
 
             <!-- Values Card -->
             <div class="col-md-4 mb-4">
-              <div class="card about-card">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Our Values</h5>
-                  <p class="card-text">
-                    Integrity, innovation, and customer-centricity are at the
-                    core of our business.
-                  </p>
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Values</h5>
+                        <p class="card-text">
+                            Integrity, innovation, and customer-centricity are at the
+                            core of our business.
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <!-- Footer Section -->
-      <footer class="bg-dark text-light py-3 text-center">
+    <!-- Footer Section -->
+    <footer class="bg-dark text-light py-3 text-center">
         <p class="mb-0">&copy; 2024 [Your Store Name]. All rights reserved.</p>
-      </footer>
-    </div>
+    </footer>
+</div>
 
     <!-- About page end -->
     <script src="js/index.js"></script>
